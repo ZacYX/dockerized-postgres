@@ -2,7 +2,7 @@ services:
   db:
     image: postgres:latest
 
-    container_name: ta-postgres
+    container_name: tapg
 
     environment:
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
